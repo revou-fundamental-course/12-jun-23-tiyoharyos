@@ -1,7 +1,7 @@
 function celToFa() {
     var tempcelcius = document.getElementById("celcius").value;
     var tempfahrenheit = (tempcelcius * (9 / 5)) + 32;
-    var proses = tempcelcius + " derajat Celcius = " + tempfahrenheit + " derajat Fahrenheit";
+    var proses = "(" + tempcelcius +" derajat Celcius * (9 / 5)) + 32= " + tempfahrenheit + " derajat Fahrenheit"
     document.getElementById("proses").innerText = proses;
     document.getElementById("fahrenheit").value = tempfahrenheit;
 }
@@ -13,7 +13,7 @@ function reset() {
 function reverse() {
     var tempcelcius = document.getElementById("celcius").value;
     var tempfahrenheit = (tempcelcius  - 32 ) * (5 / 9);
-    var proses = tempcelcius + " derajat Fahrenheit = " + tempfahrenheit + " derajat Celcius";
+    var proses = "(" + tempcelcius +" derajat Fahrenhei - 32) * (5 / 9))= " + tempfahrenheit + " derajat Celcius"
     document.getElementById("proses").innerText = proses;
     document.getElementById("fahrenheit").value = tempfahrenheit;
 }
