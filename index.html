@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Konversi Temperatue</title>
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
     <h1>Konversi Suhu</h1>
-    <h2>Silahkan Masukan Nilai Celcius</h2>
+    <h2>Silahkan Masukkan Nilai Celcius</h2>
     <input type="number" id="celcius">
-    <button type="button" onclick="celToFa()"> Convert</button>
-    <button type="button" onclick="reset()"> Reset</button>
-    <button type="button" onclick="reverse()"> reverse</button>
+    <button type="button" onclick="celToFa()"><i class="fas fa-exchange-alt"></i> Convert</button>
+    <button type="button" onclick="reset()"><i class="fas fa-undo"></i> Reset</button>
+    <button type="button" onclick="reverse()"><i class="fas fa-retweet"></i> Reverse</button>
     <input type="number" id="fahrenheit" readonly>
     <p id="proses"></p>
-    
 </body>
 <script src="assets/JS/scripts.js"></script>
 </html>
